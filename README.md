@@ -109,9 +109,8 @@ Projetos práticos da disciplina de Arquitetura de Computadores, incluindo manip
 
 ##  Experiência
 
-**BSB Global Company** *(atual)*
+**BSB Global Company** 
 - **Iniciativa de Desenvolvimento Web:** à frente da estruturação de uma nova frente de desenvolvimento de sites para clientes da empresa.
-- **Prospecção de Leads (BDR):** responsável pela prospecção e comunicação com potenciais clientes para apresentação dos serviços da empresa.
 
 ---
 
