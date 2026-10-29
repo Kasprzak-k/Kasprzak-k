@@ -71,12 +71,3 @@ Chamada autenticada com API Key injetada via `@Value`, em camadas Controller, Se
 Aplicação que busca dados de qualidade do ar (PM2.5) por coordenadas na OpenAQ API v3.
 Java 17, `java.net.http.HttpClient`, Jackson.
 Sem frameworks, com JSON mapeado para `record` imutáveis e autenticação por header `X-API-Key`.
-
----
-
-## Estatísticas do GitHub
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Kasprzak-k&show_icons=true&theme=dark&hide_border=true" alt="Estatísticas do GitHub">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kasprzak-k&layout=compact&theme=dark&hide_border=true" alt="Linguagens mais usadas">
-</p>
