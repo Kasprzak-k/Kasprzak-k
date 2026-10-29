@@ -1,120 +1,82 @@
-# Olá, sou o Arthur 
+<h1 align="center">Arthur Kasprzak</h1>
 
-Estudante de **Engenharia de Software** na PUC-RS, com foco em desenvolvimento **back-end com Java**.
-Hoje divido meu tempo entre projetos pessoais, pesquisa acadêmica via PET e uma iniciativa de desenvolvimento web que estou estruturando no meu trabalho atual. Busco meu primeiro estágio para dar o próximo passo.
+<p align="center">
+  Estudante de Engenharia de Software na PUC-RS<br>
+  Back-end com Java e Spring Boot
+</p>
 
-📍 Porto Alegre, RS, Brasil
-
----
-
-## 🎓 Formação & Programas Acadêmicos
-
-**Bacharelado em Engenharia de Software**, PUC-RS (2024 – atual)
-
-**Programa de Educação Tutorial (PET), área de Tecnologia**, PUC-RS *(2026 – atual)*
-Membro oficial do PET, programa de excelência acadêmica voltado a ensino, pesquisa e extensão. Atualmente em processo de escolha do laboratório de pesquisa para atuação.
-
-**Ensino Médio**, Nanaimo District Secondary School, Canadá
+<p align="center">
+  <a href="https://www.linkedin.com/in/arthur-kasprzak-8716a4358/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:kasprzakramos@icloud.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
 ---
 
-## 🛠️ Tecnologias & Conceitos
+## Sobre mim
 
-**Domínio sólido**
-- Java 21: POO, Collections, Lambdas, Generics, Records
-- Spring Boot 3.x / 4.x: arquitetura N-Tier, Spring Data JPA, injeção de dependência via construtor, `RestClient`
-- Estruturas de Dados: grafos, hashing, heaps, análise de complexidade (Big O)
-- Git & GitHub
+Moro em Porto Alegre e curso Engenharia de Software na PUC-RS desde 2024. Sou membro do PET (Programa de Educação Tutorial), onde faço pesquisa na área de engenharia de software e IA, e desenvolvo projetos de back-end em Java com foco em APIs REST. Estou aberto a oportunidades de estágio em desenvolvimento back-end.
 
-**Conhecimento aplicado**
-- Documentação de API com Swagger UI (springdoc-openapi) para integração com front-end
-- Padrão DTO · Lombok · boas práticas de código limpo
-- SQL · PostgreSQL · Modelagem relacional · Gerenciamento transacional com `@Transactional`
-- Cache com Redis (`@Cacheable`, Spring Cache Abstraction)
-- Containerização com Docker & Docker Compose
-- Consumo de APIs externas: OpenAQ API, Google Calendar API
-- Desserialização JSON com Jackson (`ObjectMapper`)
-- Versionamento e colaboração em equipe com Git/GitHub
-- Scrum / metodologias ágeis
+Utilizo agentes de IA como parte do meu fluxo de desenvolvimento. Arquitetura, decisões de design e revisão de cada alteração são minhas; os agentes aceleram a implementação, e todo código que entra no repositório é código que eu compreendo e consigo defender.
 
-**Acadêmico**
-- C: ponteiros, alocação dinâmica
-- Processamento paralelo e distribuído (cursando)
+Idiomas: português (nativo) e inglês (fluente, com Ensino Médio concluído no Canadá).
 
 ---
 
-##  Projetos
+## Tecnologias
 
-### [ProjetoFinancas2026](https://github.com/Kasprzak-k/ProjetoFinancas2026) — Agregador de Portfólio Financeiro
-API REST para gestão financeira pessoal e controle de posições em ativos.
-Back-end em **Java 21 + Spring Boot 3.2**, com front-end sendo desenvolvido por colaboradores.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
-**Stack:** Java 21 · Spring Boot · Spring Data JPA · PostgreSQL · Redis · Docker · Swagger UI · Lombok · Maven
+**Linguagem e back-end:** Java 21, POO (Object-Oriented Programming), Collections, Generics, Lambdas, Records, Spring Boot 3 e 4, Spring Data JPA, API REST (RESTful), DTO, Injeção de Dependência, Arquitetura em Camadas (N-Tier), Jackson, JSON, RestClient, HttpClient, Lombok, Maven
 
-Destaques técnicos:
-- Arquitetura em camadas (Controllers → Services → Repositories → Domain)
-- Cálculos financeiros com `BigDecimal` e `RoundingMode` para precisão exata
-- Cache de portfólio e preços via Redis (`spring-boot-starter-data-redis`)
-- API documentada via Swagger UI para integração com o front-end
-- Ambiente containerizado com Dockerfile + Docker Compose (app + PostgreSQL + Redis)
-- Projeto colaborativo orientado a portfólio
+**Dados e infraestrutura:** SQL, PostgreSQL, Modelagem Relacional, `@Transactional`, Redis, Cache (`@Cacheable`), Docker, Docker Compose, Swagger, OpenAPI
 
----
+**Fundamentos:** Estruturas de Dados (Data Structures), Algoritmos, Grafos, Hashing, Heaps, Big O, Processamento Paralelo e Distribuído
 
-### [google-calendar-api](https://github.com/Kasprzak-k/google-calendar-api) — Integração com Google Calendar
-API REST que consome a Google Calendar API para listar feriados brasileiros.
-Construída com **Spring Boot 4.0** e o novo `RestClient` (substituto moderno do `RestTemplate`).
-
-**Stack:** Java 21 · Spring Boot 4.0 · RestClient · Lombok · Maven
-
-Destaques técnicos:
-- Integração com a Google Calendar API v3 via `RestClient`
-- Injeção de API Key via `@Value` e `application.properties`
-- Arquitetura em camadas: Controller → Service → DTO
-- Demonstra consumo de APIs externas autenticadas em Spring Boot moderno
+**Prática de engenharia:** Git, GitHub, Scrum, Metodologias Ágeis, Clean Code, Integração de APIs, Desenvolvimento com Agentes de IA
 
 ---
 
-### [jsonplaceholder-rest](https://github.com/Kasprzak-k/jsonplaceholder-rest) — REST Client com Spring Boot
-Cliente REST que consome a API pública JSONPlaceholder, explorando o `RestClient` do Spring.
+## Experiência
 
-**Stack:** Java 17 · Spring Boot 3.2 · RestClient · Maven
+**PET (Programa de Educação Tutorial), PUC-RS** | 2026 - atual
+Pesquisa na área de engenharia de software e IA.
 
-Destaques técnicos:
-- Consumo de API pública com `RestClient` (API moderna do Spring Web)
-- Endpoint `GET /events` expondo dados integrados via `EventService`
-- Projeto de estudo aplicado do padrão Service + Controller
+**BSB Global Company**
+Estruturei uma nova frente de desenvolvimento de sites para clientes da empresa.
 
 ---
 
-### [pm25](https://github.com/Kasprzak-k/pm25) — Monitor de Qualidade do Ar (PM2.5)
-Aplicação Java que consome a **OpenAQ API** (v3) para buscar dados de qualidade do ar por coordenadas geográficas.
+## Projetos
 
-**Stack:** Java 17 · Java HttpClient · Jackson Databind · Maven
+**[ProjetoFinancas2026](https://github.com/Kasprzak-k/ProjetoFinancas2026)**
+API REST para gestão financeira pessoal e controle de posições em ativos, feita em equipe (eu no back-end, colaboradores no front-end).
+Java 21, Spring Boot, Spring Data JPA, PostgreSQL, Redis, Docker, Swagger UI.
+Cálculos com `BigDecimal` para precisão exata, cache de portfólio e preços no Redis e ambiente completo com Docker Compose.
 
-Destaques técnicos:
-- Consumo de API REST externa com `java.net.http.HttpClient` (sem frameworks)
-- Desserialização de JSON com Jackson (`ObjectMapper`) mapeando para Records
-- Modelagem com `record` Java para representação imutável de dados (`PM25Result`, `Coordinates`)
-- Autenticação via header de API Key (`X-API-Key`)
+**[google-calendar-api](https://github.com/Kasprzak-k/google-calendar-api)**
+API REST que lista feriados brasileiros a partir da Google Calendar API v3.
+Java 21, Spring Boot 4.0, `RestClient`.
+Chamada autenticada com API Key injetada via `@Value`, em camadas Controller, Service e DTO.
 
----
-
-### [ProjeArquitetura](https://github.com/Kasprzak-k/ProjeArquitetura) — Exercícios de Arquitetura de Computadores
-Projetos práticos da disciplina de Arquitetura de Computadores, incluindo manipulação de propriedades do sistema em Java e modelagem orientada a objetos.
-
-**Stack:** Java
-
----
-
-##  Experiência
-
-**BSB Global Company** 
-- **Iniciativa de Desenvolvimento Web:** à frente da estruturação de uma nova frente de desenvolvimento de sites para clientes da empresa.
+**[pm25](https://github.com/Kasprzak-k/pm25)**
+Aplicação que busca dados de qualidade do ar (PM2.5) por coordenadas na OpenAQ API v3.
+Java 17, `java.net.http.HttpClient`, Jackson.
+Sem frameworks, com JSON mapeado para `record` imutáveis e autenticação por header `X-API-Key`.
 
 ---
 
-## 📬 Contato
+## Estatísticas do GitHub
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur_Kasprzak-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/arthur-kasprzak-8716a4358/)
-[![Email](https://img.shields.io/badge/Email-kasprzakramos@icloud.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kasprzakramos@icloud.com)
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Kasprzak-k&show_icons=true&theme=dark&hide_border=true" alt="Estatísticas do GitHub">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kasprzak-k&layout=compact&theme=dark&hide_border=true" alt="Linguagens mais usadas">
+</p>
